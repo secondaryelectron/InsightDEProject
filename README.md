@@ -6,5 +6,12 @@ Nowadays the technology advances blazingly fast. The tools/skills popular yester
 ## Use Case
 * Find out the most relevent skills for a certain type of job
 * Find out the trend of companies hiring patterns over different job positions/teams
-* Match a job posting with candidate having the most relevent skill set. 
-## Which technologies are well suited
+* Recommend the candidates with most relevent skill set to a open job position from a company 
+## Technology Considered
+* Data Storage Layer: Common Crawl, AWS S3
+* Data Ingestion Layer: Elastic Search, Kafka
+* Streaming Process: Kafka, Flink
+* Bash Process: Spark
+* DataBase: Canssandra
+## Pipeline Architecture
+![alt text](/architecture.png)
