@@ -1,17 +1,21 @@
-# Career Match
+# Reflecting on the Past to Prepare for the Future
 ## Project Idea
-Build an open source pipeline to explore the essential skills preferred for a job posting and match with candidates with most relevent skill set.
+Build an open source pipeline to explore historical events ocurred in the past and how they connect with latest news happening in the present to provide us insight, wisdom and experience for future decisions.  
 ## Purpose
-Nowadays the technology advances blazingly fast. The tools/skills popular yesterday may not be preferred tomorrow. Also sometimes titles in a job posting could be confusing: a Data Engineer position could be titled as Data Analyst, or Data Scientist, or Software Engineer, etc. It is worthwhile to use the weapon of big data to find out the important relevent skill for a certain job. 
+The lessons of the past can become meaningful and instructive to the present and the future. Studying the past can be a fascinating adventure. For example, if one made a serious mistake in the past, the only way to learn from it is to adopt a new set of behaviors that avoids the similar mistake in the future. Same holds ture if we scale to organizations, communities, nations and world. 
 ## Use Case
-* Find out the most relevent skills for a certain type of job
-* Find out the trend of companies hiring patterns over different job positions/teams
-* Recommend the candidates with most relevent skill set to a open job position from a company 
+* There is a radio broadcast program called 'Today in History' which is my favorite to listen to when I commute. It will be cool if we can query what happened in history with the same time as now lively.
+* Any kind of query based on geolocations, time, categories, etc. 
+* Find connections bewteen the historical events and current ones and visualize.  
+## Data Source
+* The Global Database of Events, Language, and Tone (GDELT) includes news and events data from 1979 to present. 
+* The size of the dataset is estimated to be ~ TB in order of magnitude.
+* For Bashing processing historical archived dataset will be used (e.g. from 1973 to 2017)
+* For Streaming processing more current dataset will be used to simulate current stream based on timestamp(e.g. 2018)
 ## Technology Considered
-* Data Storage Layer: Common Crawl, AWS S3
-* Data Ingestion Layer: Elastic Search, Kafka
-* Streaming Process: Kafka, Flink
+* Data Storage Layer: AWS S3
+* Data Ingestion Layer: Kafka
+* Streaming Process: Spark Streaming, Flink
 * Bash Process: Spark
 * DataBase: Canssandra
 ## Pipeline Architecture
-![alt text](/architecture.png)
