@@ -1,4 +1,4 @@
-# Reflecting on the Past to Prepare for the Future
+# Customerized NewsFeed
 ## Project Idea
 Build an open source pipeline to explore historical events ocurred in the past and how they connect with latest news happening in the present to provide us insight, wisdom and experience for future decisions.  
 ## Purpose
