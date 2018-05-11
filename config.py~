@@ -1,0 +1,12 @@
+# config.py
+
+CASSANDRA_SERVER = ['35.163.175.94']
+
+CASSANDRA_NAMESPACE = 'demo'
+
+# Reduce event types to major ones	
+
+cateMapping = {'COP':'Sports', 'GOV':'Politics','INS':'WAR','JUD':'Social','MIL':'WAR','OPP':'Politics','REB':'WAR','SEP':'WAR','SPY':'Social','UAF':'WAR','AGR':'Agriculture',\
+				'BUS':'Business', 'CRM': 'Social', 'CVL': 'Social', 'DEV':'Technology','EDU':'Education', 'ELI':'Social', 'ENV':'Environment', 'HLH':'Health', 'HRI':'Social','LAB':'Social',\
+				'LEG':'Business', 'MED':'Media', 'REF':'Social', 'MOD': 'Sports', 'RAD':'SOCIAL', 'AMN':'Sports', 'IRC':'Social', 'GRP':'Sports', 'UNO': 'Social','PKO':'Sports', 'UIS':'Other',\
+				'IGO':'Sports','IMG':'International', 'INT': 'International', 'MNC': 'International', 'NGM': 'International', 'NGO':'International', 'UIS':'Other', 'SET': 'Sports'}
