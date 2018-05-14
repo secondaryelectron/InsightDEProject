@@ -13,4 +13,4 @@ Now we are in the big data age and information just explodes. There are roughly 
 * DataBase: Canssandra
 * FrontEnd: Dash
 ## Pipeline Architecture
-
+![alt text](img/architecture.png)
